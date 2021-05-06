@@ -1,0 +1,28 @@
+:root{
+    --dark:#16191c;
+    --dark-x: #1e2126;
+    --light: #ffffffff;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light)
+}
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.font-cotrol,button{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img1{
+    background-size: cover;
+    background-position:center;
+}
+.img2{
+    background-size: cover;
+    background-position:center;
+}
